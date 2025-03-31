@@ -1,4 +1,4 @@
-package com.userrolemgmt.model;
+package com.usuarioroles.model;
 
 import java.sql.Timestamp;
 

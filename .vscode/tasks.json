@@ -8,7 +8,7 @@
       "problemMatcher": "$func-java-watch",
       "isBackground": true,
       "options": {
-        "cwd": "${workspaceFolder}/target/azure-functions/userrolemgmt-1742943861799"
+        "cwd": "${workspaceFolder}/target/azure-functions/usuariosroles-1742943861799"
       },
       "dependsOn": "package (functions)"
     },

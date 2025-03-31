@@ -1,12 +1,12 @@
-package com.userrolemgmt;
+package com.usuarioroles;
 
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import com.microsoft.azure.functions.*;
 import com.microsoft.azure.functions.annotation.*;
-import com.userrolemgmt.dao.UserDAO;
-import com.userrolemgmt.model.User;
-import com.userrolemgmt.util.DatabaseConnection;
+import com.usuarioroles.dao.UserDAO;
+import com.usuarioroles.model.User;
+import com.usuarioroles.util.DatabaseConnection;
 
 import java.sql.SQLException;
 import java.util.List;

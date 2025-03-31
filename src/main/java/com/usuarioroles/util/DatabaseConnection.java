@@ -1,4 +1,4 @@
-package com.userrolemgmt.util;
+package com.usuarioroles.util;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -18,9 +18,9 @@ public class DatabaseConnection {
             LOGGER.log(Level.INFO, "Driver H2 cargado correctamente");
             
             // URL para H2 en memoria
-            String url = "jdbc:h2:mem:userrolemgmt;DB_CLOSE_DELAY=-1";
-            String user = "sa";
-            String password = "";
+            String url = "jdbc:h2:mem:usuarioroles;DB_CLOSE_DELAY=-1";
+            String user = "jhermida";
+            String password = "j1s0n2108*";
             
             LOGGER.log(Level.INFO, "Conectando a H2 en memoria con URL: " + url);
             connection = DriverManager.getConnection(url, user, password);

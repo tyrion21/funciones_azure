@@ -1,6 +1,8 @@
-package com.userrolemgmt;
+package com.usuarioroles;
 
 import com.microsoft.azure.functions.*;
+import com.usuarioroles.Function;
+
 import org.mockito.invocation.InvocationOnMock;
 import org.mockito.stubbing.Answer;
 

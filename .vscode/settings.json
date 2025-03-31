@@ -1,7 +1,8 @@
 {
     "azureFunctions.javaBuildTool": "maven",
-    "azureFunctions.deploySubpath": "target/azure-functions/userrolemgmt-1742943861799",
+    "azureFunctions.deploySubpath": "target/azure-functions/usuarioroles-1742943861799",
     "azureFunctions.projectLanguage": "Java",
     "azureFunctions.projectRuntime": "~4",
-    "azureFunctions.preDeployTask": "package (functions)"
+    "azureFunctions.preDeployTask": "package (functions)",
+    "java.configuration.updateBuildConfiguration": "interactive"
 }

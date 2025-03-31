@@ -1,14 +1,14 @@
-package com.userrolemgmt.dao;
-
-import com.userrolemgmt.model.Role;
-import com.userrolemgmt.model.User;
-import com.userrolemgmt.util.DatabaseConnection;
+package com.usuarioroles.dao;
 
 import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.logging.Level;
 import java.util.logging.Logger;
+
+import com.usuarioroles.model.Role;
+import com.usuarioroles.model.User;
+import com.usuarioroles.util.DatabaseConnection;
 
 public class UserDAO {
     private static final Logger LOGGER = Logger.getLogger(UserDAO.class.getName());
