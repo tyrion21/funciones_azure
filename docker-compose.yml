@@ -1,0 +1,20 @@
+version: '3'
+
+services:
+  azure-functions:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "7071:80"
+    environment:
+      - AzureWebJobsStorage=UseDevelopmentStorage=true
+      - FUNCTIONS_WORKER_RUNTIME=node
+    volumes:
+      - ./:/home/site/wwwroot
+    networks:
+      - azure-functions-network
+
+networks:
+  azure-functions-network:
+    driver: bridge
